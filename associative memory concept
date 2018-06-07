@@ -1,0 +1,3 @@
+The original Pentium 4 processor had a four-way set associative L1 data cache of 8 KiB in size, with 64-byte cache blocks. Hence, there are 8 KiB / 64 = 128 cache blocks. The number of sets is equal to the number of cache blocks divided by the number of ways of associativity, what leads to 128 / 4 = 32 sets, and hence 25 = 32 different indices. There are 26 = 64 possible offsets. Since the CPU address is 32 bits wide, this implies 32 - 5 - 6 = 21 bits for the tag field.
+
+The original Pentium 4 processor also had an eight-way set associative L2 integrated cache 256 KiB in size, with 128-byte cache blocks. This implies 32 - 8 - 7 = 17 bits for the tag field.[8]
